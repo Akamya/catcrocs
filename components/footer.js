@@ -2,7 +2,7 @@ export const footer = `
 
 <div class="footer">
     <figure>
-        <img src="/api/images/logoCatCrocs.png"/>
+        <img src="/public/images/logoCatCrocs.png"/>
     </figure>
     <div class="reseaux">
         <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>

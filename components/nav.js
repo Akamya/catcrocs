@@ -1,6 +1,6 @@
 export const nav = `
 <figure class="logo">
-    <img src="/api/images/logoCatCrocs.png"/>
+    <img src="/public/images/logoCatCrocs.png"/>
 </figure>
 
 <nav>

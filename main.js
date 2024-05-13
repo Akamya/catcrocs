@@ -10,7 +10,7 @@ function fetchProduits() {
     ${nav}
     <div class="gallery">
         <figure class="gallery-item">
-          <img src="/api/images/catModels/collage.jpg" alt="" />
+          <img src="public/images/catModels/collage.jpg" alt="" />
         </figure>
         <div class="textHeader">
           <h1>Cat</h1>

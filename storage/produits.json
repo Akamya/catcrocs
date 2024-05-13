@@ -4,47 +4,47 @@
     "title": "Couleur : Orange d'été",
     "titleAdulte": "! Ceci est une page destiné aux adultes !",
     "content": "Prix : 20€",
-    "img": "../api/images/produits/orangeCrocs.jpg",
-    "img2": "../api/images/produits/orangeSexy.jpg"
+    "img": "../public/images/produits/orangeCrocs.jpg",
+    "img2": "../public/images/produits/orangeSexy.jpg"
   },
   {
     "id": 2,
     "title": "Couleur : Bleu Canard",
     "titleAdulte": "! Ceci est une page destiné aux adultes !",
     "content": "Prix : 20€",
-    "img": "../api/images/produits/blueCrocs.jpg",
-    "img2": "../api/images/produits/bleuSexy.jpg"
+    "img": "../public/images/produits/blueCrocs.jpg",
+    "img2": "../public/images/produits/bleuSexy.jpg"
   },
   {
     "id": 3,
     "title": "Couleur : Rose bonbon",
     "titleAdulte": "! Ceci est une page destiné aux adultes !",
     "content": "Prix : 20€",
-    "img": "../api/images/produits/PinkCrocs.jpg",
-    "img2": "../api/images/produits/pinkSexy.jpg"
+    "img": "../public/images/produits/PinkCrocs.jpg",
+    "img2": "../public/images/produits/pinkSexy.jpg"
   },
   {
     "id": 4,
     "title": "Couleur : Turquoise niçoise",
     "titleAdulte": "! Ceci est une page destiné aux adultes !",
     "content": "Prix : 20€",
-    "img": "../api/images/produits/turquoiseCrocs.jpg",
-    "img2": "../api/images/produits/turquoiseSexy.jpg"
+    "img": "../public/images/produits/turquoiseCrocs.jpg",
+    "img2": "../public/images/produits/turquoiseSexy.jpg"
   },
   {
     "id": 5,
     "title": "Couleur : Vert pomme",
     "titleAdulte": "! Ceci est une page destiné aux adultes !",
     "content": "Prix : 25€",
-    "img": "../api/images/produits/greenCrocs.jpg",
-    "img2": "../api/images/produits/greenSexy.jpg"
+    "img": "../public/images/produits/greenCrocs.jpg",
+    "img2": "../public/images/produits/greenSexy.jpg"
   },
   {
     "id": 6,
     "title": "Couleur : Blanc Franco",
     "titleAdulte": "! Ceci est une page destiné aux adultes !",
     "content": "Prix : 25€",
-    "img": "../api/images/produits/whiteFrCrocs.jpg",
-    "img2": "../api/images/produits/whiteFrSexy.jpg"
+    "img": "../public/images/produits/whiteFrCrocs.jpg",
+    "img2": "../public/images/produits/whiteFrSexy.jpg"
   }
 ]
