@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "img": "/api/images/equipes/taiga_good_size.png",
+    "title": "Taiga, CEO",
+    "content": "Taiga est la fondatrice de Cat Crocs, elle dirige l'entreprise d'une patte de fer depuis 2022. Elle est énormément respectée parmi ses employés, aucune paires de crocs ne passe sans qu'elle ne la croque elle-même."
+  },
+  {
+    "id": 2,
+    "img": "/api/images/equipes/garou_good_size.png",
+    "title": "Garou, Vendeur",
+    "content": "Gars et roux, Garou est le vendeur idéal pour Cat Crocs. Ses ronrons vous feront découvrir la magie des crocs."
+  },
+  {
+    "id": 3,
+    "img": "/api/images/equipes/tao_good_size.png",
+    "title": "Tao, Sécurité",
+    "content": "Tao est une grosse brute, il est imposant et intimidant mais saura faire fondre votre coeur."
+  }
+]

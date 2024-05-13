@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ffe8d0;
+  font-family: "Ubuntu", sans-serif;
+  color: rgba(22, 9, 9);
+}
+
+.logo {
+  margin: auto;
+  background-color: rgba(233, 52, 76, 0.87);
+}
+
+.logo img {
+  width: 15%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  margin-bottom: 5em;
+}
+
+#header nav {
+  margin: auto;
+  /* width: 90%; */
+  padding: 1em;
+  position: sticky;
+  top: 0em;
+  background-color: rgba(233, 52, 76, 0.87);
+}
+
+#header nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#header a:link,
+a:visited {
+  color: rgba(22, 9, 9);
+  text-decoration: none;
+}
+
+#header a:hover,
+a:active {
+  color: rgb(255, 233, 236);
+}
+
+.gallery {
+  margin-top: 5em;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  gap: 2em;
+}
+
+.gallery div {
+  font-size: 2em;
+  align-self: center;
+}
+
+.textHeader h1 {
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 3em;
+  color: rgb(233, 52, 76);
+}
+
+.textHeader p {
+  font-weight: bold;
+  line-height: 1em;
+  padding-top: 1em;
+}
+
+.gallery-item img {
+  width: 45em;
+}
+
+.boutonHeader {
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.boutonHeader a {
+  font-size: 0.5em;
+  font-weight: bold;
+  background-color: rgb(233, 52, 76);
+  border-radius: 5em;
+  padding: 0.6em;
+  -webkit-box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+}
+
+.footer {
+  background-color: rgba(233, 52, 76, 0.87);
+  text-align: center;
+}
+
+.footer img {
+  width: 5em;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reseaux {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  gap: 1em;
+  padding-bottom: 0.5em;
+}
+
+.footer p {
+  padding-bottom: 1em;
+  font-size: 0.9em;
+}
+
+.reseaux a:link,
+a:visited {
+  color: rgba(22, 9, 9);
+}
+
+.reseaux a:hover {
+  color: rgb(255, 233, 236);
+}
+
+/* ************************ */
+/* FORMULAIRE */
+/* ************************ */
+
+#contactForm {
+  margin: auto;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: rgb(254, 254, 254) 5px solid;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: rgba(234, 206, 217, 0.179);
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+#contactForm {
+  padding: 2em;
+}
+
+.input {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: rgb(254, 254, 254);
+}
+
+.input + p {
+  padding: 1em;
+}
+
+#contactForm button {
+  align-self: center;
+}
+
+label {
+  align-self: start;
+  padding-bottom: 1em;
+}
+
+#app h1 {
+  text-align: center;
+  font-size: 1.3em;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+.buttonForm {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgb(233, 52, 76);
+  border-radius: 10px;
+  padding: 0.5em 1em 0.5em 1em;
+  -webkit-box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+  border: none;
+}
+
+.buttonForm:hover {
+  color: rgb(255, 233, 236);
+  cursor: pointer;
+}
+
+.errors {
+  color: red;
+  font-size: 0.9em;
+}
+
+input[type="text"],
+textarea {
+  border-style: inset;
+  border-width: 2px;
+}
+
+/* ************************ */
+/* EQUIPES */
+/* ************************ */
+
+.profils {
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  gap: 3%;
+  flex-wrap: wrap;
+}
+
+.profil {
+  text-align: center;
+  width: 30%;
+  border: rgb(254, 254, 254) 5px solid;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: rgba(234, 206, 217, 0.179);
+  margin-bottom: 3em;
+}
+
+.profil img {
+  width: 20em;
+}
+
+.profil p {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+/* PRODUITS */
+
+.buttonProduits {
+  font-size: 1em;
+  font-weight: bold;
+  background-color: rgb(233, 52, 76);
+  border-radius: 10px;
+  padding: 0.5em 1em 0.5em 1em;
+  -webkit-box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 83px -22px rgba(0, 0, 0, 0.75);
+  border: none;
+}
+
+.buttonProduits:link,
+.buttonProduits:visited {
+  text-decoration: none;
+  color: rgba(22, 9, 9);
+}
+
+.buttonProduits:hover,
+.buttonProduits:active {
+  color: rgb(255, 233, 236);
+}
+
+.textProduits {
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+  font-size: 1em;
+}
+
+.titreAdulte {
+  color: red;
+  font-size: 3em;
+}
+
+.modelsCrocs figure {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.modelsCrocs img {
+  width: 35em;
+}
