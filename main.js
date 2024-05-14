@@ -1,6 +1,4 @@
 // ACCUEIL
-import "/reset.css";
-import "/style.css";
 import { nav } from "/components/nav.js";
 import { footer } from "./components/footer.js";
 

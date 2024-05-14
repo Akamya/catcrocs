@@ -20,7 +20,7 @@
     "title": "Couleur : Rose bonbon",
     "titleAdulte": "! Ceci est une page destiné aux adultes !",
     "content": "Prix : 20€",
-    "img": "../public/static/images/produits/PinkCrocs.jpg",
+    "img": "../public/static/images/produits/pinkCrocs.jpg",
     "img2": "../public/static/images/produits/pinkSexy.jpg"
   },
   {

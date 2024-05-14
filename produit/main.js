@@ -1,14 +1,13 @@
 // PRODUIT
-import "/reset.css";
-import "/style.css";
+
 import { nav } from "/components/nav.js";
 import { footer } from "../components/footer.js";
 
 async function fetchPosts() {
   const id = new URL(window.location).searchParams.get("id");
   console.log(id);
-  let url = new URL(import.meta.env.VITE_API_URL);
-  url.pathname = `/minisite/api/produit.php`;
+  let url = new URL("http://minisite.elolan.ovh/");
+  url.pathname = `api/produit.php`;
   url.searchParams.set("id", id);
 
   document.querySelector("#header").innerHTML = `

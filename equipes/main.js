@@ -1,13 +1,12 @@
 // EQUIPES
-import "/reset.css";
-import "/style.css";
+
 import { nav } from "../components/nav.js";
 import { footer } from "../components/footer.js";
 import { equipeComponent } from "../components/equipe.js";
 
 async function fetchEquipes() {
-  let url = new URL(import.meta.env.VITE_API_URL);
-  url.pathname = "/minisite/api/equipes.php";
+  let url = new URL("http://minisite.elolan.ovh/");
+  url.pathname = "api/equipes.php";
 
   document.querySelector("#header").innerHTML = `
   ${nav}`;

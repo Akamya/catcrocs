@@ -1,13 +1,15 @@
 // PRODUITS
-import "/reset.css";
-import "/style.css";
+
 import { nav } from "../components/nav.js";
 import { footer } from "../components/footer.js";
 import { produitComponent } from "../components/produit.js";
 
 async function fetchProduits() {
-  let url = new URL(import.meta.env.VITE_API_URL);
-  url.pathname = "/minisite/api/produits.php";
+  let urlPage = window.location.href;
+  console.log(urlPage);
+
+  let url = new URL("http://minisite.elolan.ovh/");
+  url.pathname = "api/produits.php";
 
   document.querySelector("#header").innerHTML = `
   ${nav}`;

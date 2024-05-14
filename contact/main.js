@@ -1,6 +1,5 @@
 // CONTACT
-import "/reset.css";
-import "/style.css";
+
 import { nav } from "/components/nav.js";
 import { footer } from "../components/footer.js";
 
@@ -39,8 +38,8 @@ function createAndSubmitForm() {
       const formData = new FormData(e.target);
       const data = Object.fromEntries(formData.entries());
 
-      let url = new URL(import.meta.env.VITE_API_URL);
-      url.pathname = "/minisite/api/submitContact.php";
+      let url = new URL("http://minisite.elolan.ovh/");
+      url.pathname = "api/submitContact.php";
 
       try {
         const response = await fetch(url, {
